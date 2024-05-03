@@ -1,0 +1,59 @@
+.card {
+  height: 50%;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.search {
+  background-color: black;
+  height: 80px;
+}
+.search input {
+  margin: 4px 0px;
+  padding: 4px;
+}
+
+.card img {
+  height: 100%;
+  width: 100%;
+}
+.bttn {
+  display: flex;
+  padding: 20px;
+}
+.bttn button {
+  margin: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .card {
+    height: 100%;
+    width: 100%;
+  }
+  .bttn {
+    display: flex;
+    flex-direction: column;
+  }
+  .bttn button {
+    margin: 10px;
+  }
+  .livesearch {
+    width: 100%;
+  }
+  .clicksearch {
+    width: 100%;
+  }
+  .row-data {
+    display: flex;
+    flex-direction: column;
+  }
+  .search input {
+    margin: 4px 0px;
+    padding: 0;
+  }
+  .search {
+    background-color: black;
+    height: 80px;
+  }
+}
